@@ -317,3 +317,23 @@ $("#option6 h4").click(function(){
 })
 
 
+//toggle rooms
+
+$("#wd").click(function(){
+
+    $(".p1, .p2, .p3").show(500);
+});
+$("#d").click(function(){
+    $(".p2, .p3").show(500);
+    $(".p1").hide(500);
+});
+$("#gd").click(function(){
+    $(".p1, .p3").show(500);
+    $(".p2").hide(500);
+
+});
+$("#ph").click(function(){
+
+    $(".p3").show(500);
+    $(".p1, .p2").hide(500);
+});

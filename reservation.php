@@ -43,14 +43,13 @@ include 'nav.php'
             
             
             
-            
-<form class="container" action="booking.php" method="post">
+ <form class="container" style="padding-top:40px" action="booking.php" method="post">
   <div class="form-row">
-      <div class="form-group col-md-2"> <input name="checkIn" type="text" onfocus="(this.type='date')"  id="validationDefault01" class="form-control" placeholder="Check In" required>
-      <div class="form-group col-md-2"> <input name="checkOut" type="text" onfocus="(this.type='date')"  id="validationDefault01" class="form-control" placeholder="Check Out" required> </div>
+      <div class="form-group col-md-2"> <input name="checkIn" type="text" onfocus="(this.type='date')"  id="validationDefault01" class="form-control" placeholder="Check In" required> </div>
+      <div class="form-group col-md-2"> <input name="checkOut"  id="validationDefault02" type="text" onfocus="(this.type='date')" class="form-control" placeholder="Check Out" required> </div>
      
   <div class="form-group col-md-2">
-    <select name="num_adult"class="custom-select" required  id="validationDefault03">
+    <select  name="num_adult"class="custom-select" required  id="validationDefault03">
       <option value="">Adult</option>
       <option value="1">One</option>
       <option value="2">Two</option>
@@ -60,7 +59,7 @@ include 'nav.php'
   </div>
 
   <div class="form-group col-md-2">
-    <select name="num_children" class="custom-select" required  id="validationDefault04">
+    <select name="num_children"class="custom-select" required  id="validationDefault04">
       <option value="">Chilldren</option>
       <option value="1">One</option>
       <option value="2">Two</option>
@@ -72,9 +71,8 @@ include 'nav.php'
       <div class="col-md-3"> <button class="btn btn-primary" type="submit" style="width:100%; background-color: #b19261;border-color:#b19261">Check Avability</button></div>
 </div>
  
-</form>
-            
-            
+</form>            
+             
             
             
             

@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="home.php">HOME <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#rooms">ROOMS</a>
+              <a class="nav-item nav-link" href="rooms.php">ROOMS</a>
               <a class="nav-item nav-link" href="reservation.php">RESERVATIONS</a>
               <a class="nav-item nav-link" href="contact.php">CONTACTS</a>              
               <div class="navbar-nav2">
