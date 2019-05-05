@@ -1,28 +1,3 @@
-
-<?php
-    
-
-$con = mysqli_connect('localhost','root','','bookingroom');
-     if($con == true)
-     {
-//$chechIn = $_POST['CheckIn'];
-//$checkOut = $_POST['CheckOut'];
-//$num_of_adults = $_POST['num_adult'];
-//$num_of_child = $_POST['num_children'];
-
-$q= "INSERT INTO client(client_id, client_name, address, Mail, price, quantity, check_in, check_out, phone) VALUES ('')";
-
-     }
-else
-{
-    echo 'disconected';
-}   
-
-
-?>
-
-
-
 <?php
 
 include 'nav.php'

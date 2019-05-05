@@ -914,6 +914,34 @@
                                 <div class="crackline2"></div>    
                                 </div>
                                 <h6>Your cart is empty. </h6>
+                                <form class="container" style="padding:20px 10px;" action="booking.php" method="post">
+                                          <div class="form-row">
+                                              <div class="form-group col-md-12"> <input name="checkIn" type="text" onfocus="(this.type='date')"  id="validationDefault01" class="form-control" placeholder="Check In" required> </div>
+                                              <div class="form-group col-md-12"> <input name="checkOut"  id="validationDefault02" type="text" onfocus="(this.type='date')" class="form-control" placeholder="Check Out" required> </div>
+
+                                          <div class="form-group col-md-12">
+                                            <select  name="num_adult"class="custom-select" required  id="validationDefault03">
+                                              <option value="">Adult</option>
+                                              <option value="1">One</option>
+                                              <option value="2">Two</option>
+                                              <option value="3">Three</option>
+                                            </select>
+                                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                          </div>
+
+                                          <div class="form-group col-md-12">
+                                            <select name="num_children"class="custom-select" required  id="validationDefault04">
+                                              <option value="">Chilldren</option>
+                                              <option value="1">One</option>
+                                              <option value="2">Two</option>
+                                              <option value="3">Three</option>
+                                            </select>
+                                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                          </div>
+                                              <div class="col-md-12"> <button class="btn btn-primary" type="submit" style="width:100%; background-color: #b19261;border-color:#b19261">Check Avability</button></div>
+                                        </div>
+ 
+                                  </form>
                                 
                             </div>
                         </div>
